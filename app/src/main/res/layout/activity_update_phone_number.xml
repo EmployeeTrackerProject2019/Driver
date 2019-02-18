@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdatePhoneNumber">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/updatePhoneNumberToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/updateNumber"
+        app:titleTextColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/updatePhoneImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/verifyMobile"
+        android:src="@drawable/updatephone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updatePhoneNumberToolbar" />
+
+    <TextView
+        android:id="@+id/updateDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/we_use_your_email_and_mobile_number_to_send_you_ride_confirmations_and_receipts"
+        android:textSize="18sp"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintBottom_toTopOf="@+id/phone_number_edt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updatePhoneImage" />
+
+    <com.rilixtech.CountryCodePicker
+        android:id="@+id/ccpUpdateNum"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:ccp_defaultNameCode="@string/country_ghana_code"
+        app:layout_constraintEnd_toStartOf="@+id/phone_number_edt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateDescription" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/phone_number_edt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="@+id/ccpUpdateNum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ccpUpdateNum"
+        app:layout_constraintTop_toBottomOf="@+id/updateDescription" />
+
+    <Button
+        android:id="@+id/btnSaveNVerify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="doAction"
+        android:background="@color/colorLightDark"
+        android:text="@string/save_and_verify"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number_edt"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>

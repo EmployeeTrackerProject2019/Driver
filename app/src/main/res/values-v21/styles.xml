@@ -1,0 +1,9 @@
+<resources>
+
+    <style name = "AppMaterialTheme" parent="SuperMaterialTheme">
+      <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+
+</resources>

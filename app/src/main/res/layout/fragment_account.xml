@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".AccountFragment">
+
+
+        <ImageView
+            android:id="@+id/carImage"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/car"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/editCarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/black"
+            android:text="@string/edit_car_details"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/carImage"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pickupUserPhoto"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/profilephoto"
+            app:layout_constraintBottom_toBottomOf="@+id/carImage"
+            app:layout_constraintStart_toStartOf="@+id/carImage"
+            app:layout_constraintTop_toBottomOf="@+id/carImage"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/name_of_user"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@+id/pickupUserPhoto"
+            app:layout_constraintTop_toBottomOf="@+id/carImage" />
+
+        <TextView
+            android:id="@+id/editProfileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/edit_profile"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@+id/pickupUserPhoto"
+            app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfileText">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableLeft="@drawable/ic_waybill"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_waybill"
+                android:paddingEnd="@dimen/sixteen"
+                android:paddingLeft="@dimen/sixteen"
+                android:paddingStart="@dimen/sixteen"
+                android:text="@string/waybill"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableLeft="@drawable/ic_documents"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_documents"
+                android:paddingEnd="@dimen/sixteen"
+                android:paddingLeft="@dimen/sixteen"
+                android:paddingStart="@dimen/sixteen"
+                android:text="@string/documents"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableLeft="@drawable/ic_settings_black_24dp"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_settings_black_24dp"
+                android:paddingEnd="@dimen/sixteen"
+                android:paddingLeft="@dimen/sixteen"
+                android:paddingStart="@dimen/sixteen"
+                android:text="@string/settings"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableLeft="@drawable/ic_about"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_about"
+                android:paddingEnd="@dimen/sixteen"
+                android:paddingLeft="@dimen/sixteen"
+                android:paddingStart="@dimen/sixteen"
+                android:text="@string/about"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableLeft="@drawable/ic_help"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_help"
+                android:paddingEnd="@dimen/sixteen"
+                android:paddingLeft="@dimen/sixteen"
+                android:paddingStart="@dimen/sixteen"
+                android:text="@string/help"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableLeft="@drawable/ic_logout"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/ic_logout"
+                android:paddingEnd="@dimen/sixteen"
+                android:paddingLeft="@dimen/sixteen"
+                android:paddingStart="@dimen/sixteen"
+                android:text="@string/logout"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>

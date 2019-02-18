@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">Driver</string>
+    <string name="highCom">Enjoy higher commissions \n when you drive for Vawlet</string>
+    <string name="search_model">Search model</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="year">Year</string>
+    +
+    <string name="color">Color</string>
+    <string name="integrated_color">Integrated color</string>
+    <string name="selectColor">Select Color</string>
+    <string name="SearchBrand">Search Brand</string>
+    <string name="con">Continue</string>
+    <string name="selectYear">Select Year</string>
+    <string name="addVehicleDetails">Add Vehicle Details</string>
+
+    <string-array name="yearList">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+    </string-array>
+
+    <string-array name="colorList">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Violet</item>
+    </string-array>
+
+    <string-array name="integratedColorList">
+        <item>Cyan</item>
+        <item>Magenta</item>
+        <item>Holo Green</item>
+        <item>Corn Flower blue</item>
+        <item>Material Red</item>
+        <item>Purple</item>
+    </string-array>
+
+
+    <string name="_4_6">4.6</string>
+    <string name="person">person</string>
+    <string name="_896532_total">896532 Total</string>
+    <string name="_5">5</string>
+    <string name="_3000">3000</string>
+    <string name="star">star</string>
+    <string name="_4">4</string>
+    <string name="_500">500</string>
+    <string name="_3">3</string>
+    <string name="_1356">1356</string>
+    <string name="_2">2</string>
+    <string name="_8000">8000</string>
+    <string name="_1">1</string>
+    <string name="_36666">36666</string>
+    <string name="i_enjoyed_the_ride">I enjoyed the ride</string>
+    <string name="abena_forson">Abena Forson</string>
+    <string name="_30_august_2018">30 August 2018</string>
+    <string name="time">time</string>
+    <string name="car">car</string>
+    <string name="edit_car_details">Edit car details</string>
+    <string name="name_of_user">Name of user</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="waybill">Waybill</string>
+    <string name="docs">docs</string>
+    <string name="documents">Documents</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly</string>
+    <string name="_30_5ghs">30.5GHs</string>
+    <string name="my_earnings">My earnings</string>
+    <string name="_2h_30m">2h 30m</string>
+    <string name="spent_time">Spent time</string>
+    <string name="_08">08</string>
+    <string name="todays_trip">Today\'s Trip</string>
+    <string name="completed_trips">Completed trips</string>
+    <string name="userphoto">user photo</string>
+    <string name="john_wilson">JohnWilson</string>
+    <string name="_5_30am">5:30am</string>
+    <string name="ghs50_90">Gh50.90</string>
+    <string name="Cash">Cash</string>
+    <string name="reviewYourTrip">Review your trip</string>
+    <string name="august_1_2018_4_00am">August 1,2018 @ 4:00am</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="need_help">Need Help?</string>
+    <string name="write_your_comment">Write your comment</string>
+    <string name="enter_drop_off_location">Enter Drop Off Location</string>
+    <string name="editLocation">Edit Location</string>
+    <string name="pick_up_location">PICK UP LOCATION</string>
+    <string name="ride">Ride</string>
+    <string name="no_riders">No riders</string>
+    <string name="drive">Drive</string>
+    <string name="_5_mins">5 mins</string>
+    <string name="deliver">Deliver</string>
+    <string name="_12_mins">12 mins</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="kofi_regan">Kofi Regan</string>
+    <string name="pick_up">Pick up Kofi Mow at Brekusu,Atomic round about and pay an estimated fare of GHS12 instead of Ghs25.</string>
+    <string name="bau_maning">Bau Maning</string>
+    <string name="brekusu_road">Brekusu Road</string>
+    <string name="accept">Accept</string>
+    <string name="ignore">Ignore</string>
+    <string name="_3_0">3.0</string>
+    <string name="_10_mins_away">10 mins away</string>
+    <string name="confirm">Confirm Booking</string>
+    <string name="change">Change</string>
+    <string name="rqstCash">Cash</string>
+    <string name="fareEstimate">Fare Estimate</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="cancel">Cancel</string>
+    <string name="booking_successful">Booking Successful</string>
+
+    <string name="your_booking_has_been_confirmed_ndriver_will_pick_you_up_in">Your booking has been confirmed. Driver will pick you up in</string>
+    <string name="bkCancel">Booking Cancel</string>
+    <string name="are_you_sure_you_want_to_cancel_the_ride">Are you sure you want to cancel\n the ride?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="lost_item">Lost item</string>
+    <string name="fare_issues">Fare issues</string>
+    <string name="route_feedback">Route Feedback</string>
+    <string name="driver_feedback">Driver Feedback</string>
+    <string name="vehicle_feedback">Vehicle Feedback</string>
+    <string name="ride_mate_feedback">Ride mate feedback</string>
+    <string name="promotions">Promotions</string>
+    <string name="i_was_involved_in_an_accident">I was involved in an accident</string>
+    <string name="cash_trip">Cash Trips</string>
+    <string name="reason_for_cancellation">Reason for Cancellation</string>
+    <string name="credit_card_number">Credit card Number</string>
+    <string name="pickmeapp">PickmeApp</string>
+    <string name="enter_email_or_number">Enter email or number</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="srch">Search</string>
+    <string name="edit">Edit</string>
+    <string name="write">Write</string>
+    <string name="james_oswel">James Oswel</string>
+    <string name="toyota_prius">Toyota Prius</string>
+    <string name="_2536_accra_highway">2536 Accra highway</string>
+    <string name="share">Share</string>
+    <string name="sos">SOS</string>
+    <string name="cancel_booking">Cancel booking</string>
+    <string name="change_mode">Change mode</string>
+    <string name="driveplus">Drive +</string>
+    <string name="schedule_trips">Schedule trips</string>
+    <string name="_3_mins">3 mins</string>
+    <string name="_6_mins">6 mins</string>
+    <string name="add_new_trips">Add new trips</string>
+    <string name="mobile">Mobile</string>
+    <string name="no_19_off_mabey_road_ecomog">No. 19 off Mabey road,Ecomog</string>
+    <string name="add_work">Add work</string>
+    <string name="add_home">Add Home</string>
+    <string name="no_10_papao_street_haatso">No. 10 Papao Street,Haatso</string>
+    <string name="places">Places</string>
+    <string name="history">History</string>
+    <string name="payMnt">Payment</string>
+    <string name="notifications">Notifications</string>
+    <string name="status">Status</string>
+    <string name="send_msg">sEND MSG</string>
+    <string name="phone_number_or_email">Phone number or email</string>
+    <string name="confirmBookingRequest">Confirm Booking Request</string>
+    <string name="ghs12">GHs12</string>
+    <string name="ghs10">GHs10</string>
+    <string name="carTypeName">Toyota Prius –GE 1259–15-Min-White</string>
+    <string name="estimated_fare">Estimated fare</string>
+    <string name="note">Note: This is based on approximated estimate.Actual fares may vary slightly based on traffic,discounts or transit pickups.</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="_12_ambassadorial_cescent_danfa_accra">12 Ambassadorial Cescent,Danfa,Accra</string>
+    <string name="no_10_mabey_road_haatso_ecomog">No. 10 Mabey road Haatso,Ecomog</string>
+    <string name="txtLocation">Ghana</string>
+    <string name="distance">Distance</string>
+    <string name="_2_5km">2.5km</string>
+    <string name="total_fare">Total Fare</string>
+    <string name="total_distance">Total Distance</string>
+    <string name="uploadDriverLicense">Upload Driver License</string>
+    <string name="take_a_photo">TAKE A PHOTO</string>
+    <string name="license_number">License Number</string>
+    <string name="valid_vehicle_type">Valid Vehicle Type</string>
+    <string name="issued_on">Issued on</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="login">Login</string>
+    <string name="google_sign_in">GOOGLE SIGN IN</string>
+    <string name="facebook">FACEBOOK SIGN IN</string>
+    <string name="or">OR</string>
+    <string name="prompt_password">Enter password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_firstname">Enter firstname</string>
+    <string name="enter_lastname">Enter lastname</string>
+    <string name="enter_email">Enter email</string>
+    <string name="next">Next</string>
+    <string name="phone_number">Phone number</string>
+    <string name="save_and_verify">Save and Verify</string>
+    <string name="updateNumber">Update Number</string>
+    <string name="verifyMobile">Verify mobile</string>
+    <string name="we_use_your_email_and_mobile_number_to_send_you_ride_confirmations_and_receipts">We use your email and mobile number to send you ride confirmations and receipts</string>
+    <string name="resend_code">Resend code</string>
+    <string name="change_number">Change Number</string>
+    <string name="submit">Submit</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verification_description">We are unable to auto-verify your mobile number,please enter the code texted to you here.</string>
+    <string name="collectCash">Collect Cash</string>
+    <string name="trip_fare">Trip fare</string>
+    <string name="road_tolls_and_trip_expenses">Road tolls and trip expenses</string>
+    <string name="rider_discounts">Rider discounts</string>
+    <string name="outstanding_from_last_trip">Outstanding from last trip</string>
+    <string name="total">Total</string>
+    <string name="ghs_12_00">GHs 12.00</string>
+    <string name="ghs_1_00">GHs 1.00</string>
+    <string name="ghs_0_00">GHs 0.00</string>
+    <string name="ghs_10_00">GHs 10.00</string>
+    <string name="cash_collected">Cash Collected</string>
+
+    <string name="selectVehicleType">Select vehicle type</string>
+    <string name="please_choose_how_you_would_like_to_partner_with_pickmeapp">Please choose how you would like to partner with pickmeapp</string>
+    <string name="pickmeapp_biker">PickmeApp Biker</string>
+    <string name="pickmeapp_driver">PickmeApp Driver</string>
+    <string name="you_are_a_commercially_insured_driver_n_your_vehicle_is_a_mid_size_or_full_size_that_comfortably_seats_four_passengers_or_more">You are a commercially insured driver.  Your vehicle is a mid-size or full size that comfortably seats four passengers or more</string>
+    <string name="_04_max_person">04 Max Person</string>
+    <string name="courier">PickmeApp Courier</string>
+    <string name="last_trip">Last trip</string>
+    <string name="today_s_trip">Today\'s trip</string>
+    <string name="_8_trips">8 trips</string>
+    <string name="_8_hours_online">8 hours online</string>
+    <string name="earned">Earned</string>
+    <string name="reject">Reject</string>
+    <string name="old_ashongman_road_agbogba">Old Ashongman road,Agbogba</string>
+
+    <string name="pickup_request">Pickup Request</string>
+    <string name="min_time">Min. Time</string>
+    <string name="_4_49_ghs">4.49 GHs</string>
+    <string name="esti_earn">Esti. Earn</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="_3_5_km">3.5 km</string>
+    <string name="pick_upp">Pick up</string>
+    <string name="onTrip">On Trip</string>
+    <string name="complete_trip">Complete Trip</string>
+    <string name="drop_off">Drop Off</string>
+    <string name="navigationClose">Navigation close</string>
+    <string name="pickup_at_destination">Pickup at destination</string>
+    <string name="g">g+</string>
+    <string name="f">f</string>
+    <string name="welcome_to_pickmeapp">Welcome to PickmeApp</string>
+    <string name="signup">Sign up</string>
+    <string name="now_you_can_get_your_parcels_delivered_and_pay_less_for_your_trips_around_town_its_more_fun_with_pickmeapp">Now you can get your parcels delivered and pay less for your trips around town.Its more fun with PickmeApp</string>
+    <string name="cash">Cash</string>
+    <string name="tripMessenger">Trip Messenger</string>
+
+    <!-- TODO: Remove dxscreen change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_sign_up">sign up</string>
+    <string name="_1_description">1.Description</string>
+    <string name="step_1_driver_license">Step 1:Driver License</string>
+    <string name="_1_please_upload_your_driving_licence">1.Please upload your Driving licence</string>
+    <string name="please_upload_your_vehicle_documents">Please upload your vehicle documents</string>
+    <string name="upload_vehicle_insurance">Step 2:Upload Vehicle insurance</string>
+    <string name="vehicle_permit">Step 3:Vehicle Permit</string>
+    <string name="step_4_vehicle_registration">Step 4:Vehicle Registration</string>
+    <string name="step_5_vehicle_tax">Step 5:Vehicle Tax</string>
+
+</resources>
